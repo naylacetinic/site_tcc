@@ -1,0 +1,36 @@
+h3 {
+    text-align: center;
+}
+.card-body {
+    color: black;
+}
+.btn.btn-link.collapsed  {
+    text-decoration: none;
+    color: gray;
+}
+.btn.btn-link.collapsed:hover  {
+    text-decoration: none;
+    color: red;
+}
+.btn.btn-link.collapsed:hover {
+    text-decoration: none;
+    color: red;
+}
+.btn-link {
+    font-weight: 400;
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+.btn-link:hover {
+    color: red;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+.card-header {
+    background-color: lightgray;
+}
+button {
+    text-decoration: none;
+}
