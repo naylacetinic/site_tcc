@@ -1,5 +1,6 @@
 body {
-    background-color: rgba(135, 206, 250, 0.596);
+    background-color: lightgray;
+
 }
 h3 {
     text-align: center;
@@ -39,9 +40,13 @@ button {
 }
 .carousel-control-next-icon {
     background-image: url(../imagens/Image-Arrow-.png);
+    height: 5em;
+    width: 5em;
 }
 .carousel-control-prev-icon {
     background-image: url(../imagens/Image-Arrow-PNG.png);
+    height: 5em;
+    width: 5em;
 }
 .dropdown-item {
     display: block;
@@ -54,4 +59,26 @@ button {
     white-space: nowrap;
     background-color: transparent;
     border: 0;
+}
+header {
+    background-color: darkblue;
+}
+p {
+    margin: 15px;
+    text-align: justify;
+}
+button[type=submit] {
+    color: red;
+    background-color: transparent;
+    background-image: none;
+    border-color: red;
+}
+button[type=submit]:hover{
+    color: white;
+    background-color:red;
+    background-image: none;
+    border-color: red;
+}
+form {
+    margin: 15px;
 }
