@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="../imagens/logosemnome.png">
     <title>Let's Dance - Recados</title>
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 255, 0)">
-        <a class="navbar-brand" href="#"><img src="../imagens/logo.png" height="150"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../imagens/logo.png" height="150"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -18,23 +19,17 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="../index.html">Home <span class="sr-only">(Página atual)</span></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Nossa História</a>
-                </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Modalidades
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="dancadesalao.html">Dança de Salão</a>
-                    <a class="dropdown-item" href="dancadoventre.html">Dança do Ventre</a>
+                    <a class="dropdown-item" href="dancacigana.html">Dança Cigana</a>
                     <a class="dropdown-item" href="flashback.html">Flash Back</a>
                     <a class="dropdown-item" href="zumba.html">Zumba</a>
                   </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html/#p-f"> Perguntas Frequêntes</a>
-                  </li>
                 <li class="nav-item">
                     <a class="nav-link" href="eventos.html"> Eventos</a>
                   </li>
@@ -47,7 +42,7 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button> </form>
         </nav>
-
+<br>
         <form>
             <div class="form-row">
               <div class="form-group col-md-6">
@@ -74,9 +69,7 @@
               </div>
               <div class="form-group col-md-4">
                 <label for="inputEstado">Estado</label>
-                <select id="inputEstado" class="form-control">
-                  <option selected>Escolher...</option>
-                  <option>...</option>
+                <input type="text" class="form-control" id="inputCity">
                 </select>
               </div>
               <div class="form-group col-md-2">
@@ -85,16 +78,31 @@
               </div>
             </div>
             <div class="form-group">
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Recado:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
                 <label class="form-check-label" for="gridCheck">
-                  Clique em mim
+                  Enviar confirmação por e-mail
                 </label>
               </div>
             </div>
+            
             <button type="submit" class="btn btn-primary">Entrar</button>
           </form>
-
+          <br> <br> <br>
+          <footer>
+            <div id="rodape">
+                <div id="areaLogoRodape">
+                    <img class="logo" height="100" src="../imagens/logo.png">
+                </div>
+                <div id="nomesRodape">
+                    <h2>Feito por: Nayla Cetinic</h2>
+                </div>
+            </div>
+        </footer>
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
