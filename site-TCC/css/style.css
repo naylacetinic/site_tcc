@@ -95,9 +95,9 @@ button {
 }
 .eventos table {
     background: yellow;
-    border: 15px solid yellow;
     padding: 10px;
     margin: 0 auto;
+    border-radius: 35px;
 }
 thead {
     font-size: 40px;
@@ -150,6 +150,7 @@ h2 {
     border: 1px;
     padding: 20px;
     display: grid;
+    text-align: center;
 }
 .horario {
     background-color:  yellow;
@@ -161,4 +162,14 @@ h2 {
 }
 .apr {
     text-align: right;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 30px 0;
+}
+td {
+    padding: 1px 0;
+}
+.contato {
+    text-align: center;
 }
