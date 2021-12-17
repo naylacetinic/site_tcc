@@ -129,3 +129,36 @@ h2 {
     font-size: 40px;
     text-align: center;
 }
+.td {
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 15px;
+}
+.item{
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    display: grid;
+}
+.ipd {
+    border-radius: 10px;
+    border: 1px;
+    padding: 20px;
+    display: grid;
+}
+.horario {
+    background-color:  yellow;
+    padding: 10px;
+    margin: 0 auto;
+}
+.diasemana{
+    font-size: 20px;
+}
+.apr {
+    text-align: right;
+}
