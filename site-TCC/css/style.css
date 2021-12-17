@@ -134,7 +134,7 @@ h2 {
 }
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 15px;
     margin: 15px;
 }
@@ -172,4 +172,13 @@ td {
 }
 .contato {
     text-align: center;
+}
+.alert.alert-success {
+    background-color: red;
+    color: white;
+}
+h6 {
+    font-size: 15px;
+    text-align: right;
+    font-weight: 400;
 }
