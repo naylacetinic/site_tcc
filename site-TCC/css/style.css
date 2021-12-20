@@ -1,26 +1,30 @@
 body {
     background-color: lightgray;
-
 }
+
 h3 {
     text-align: center;
     font-size: 35px;
 }
+
 .card-body {
     color: black;
     background-color: lightgray;
     font-size: 19px;
 }
-.btn.btn-link.collapsed  {
+
+.btn.btn-link.collapsed {
     text-decoration: none;
     color: gray;
     font-size: 24px;
 }
-.btn.btn-link.collapsed:hover  {
+
+.btn.btn-link.collapsed:hover {
     text-decoration: none;
     color: black;
     font-size: 25px;
 }
+
 .btn-link {
     font-weight: 400;
     color: black;
@@ -28,28 +32,34 @@ h3 {
     text-decoration: none;
     font-size: 25px;
 }
+
 .btn-link:hover {
     color: black;
     text-decoration: none;
     background-color: transparent;
     border-color: transparent;
 }
+
 .card-header {
     background-color: white;
 }
+
 button {
     text-decoration: none;
 }
+
 .carousel-control-next-icon {
     background-image: url(../imagens/Image-Arrow-.png);
     height: 5em;
     width: 5em;
 }
+
 .carousel-control-prev-icon {
     background-image: url(../imagens/Image-Arrow-PNG.png);
     height: 5em;
     width: 5em;
 }
+
 .dropdown-item {
     display: block;
     width: 100%;
@@ -62,52 +72,64 @@ button {
     background-color: transparent;
     border: 0;
 }
+
 header {
     background-color: darkblue;
 }
+
 p {
     margin: 15px;
     text-align: justify;
     font-size: 19px;
 }
+
 button[type=submit] {
     color: red;
     background-color: transparent;
     background-image: none;
     border-color: red;
 }
-button[type=submit]:hover{
+
+button[type=submit]:hover {
     color: white;
-    background-color:red;
+    background-color: red;
     background-image: none;
     border-color: red;
 }
+
 form {
     margin: 15px;
 }
+
 button {
     text-decoration: none;
 }
+
 .eventos {
     margin: 30px 0;
     text-align: center;
     width: 100%;
 }
+
 .eventos table {
     background: yellow;
     padding: 10px;
     margin: 0 auto;
     border-radius: 35px;
 }
+
 thead {
     font-size: 40px;
 }
+
 tbody {
     font-size: 40px;
 }
+
 footer {
     background-color: yellow;
 }
+
 #rodape {
     display: grid;
     grid-template-columns: 1fr 10fr;
@@ -122,29 +144,35 @@ footer {
 #areaLogoRodape {
     padding: 25px;
 }
+
 h2 {
     font-size: 1rem;
 }
+
 .modalidade {
     font-size: 40px;
     text-align: center;
 }
+
 .td {
     text-align: center;
 }
+
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
     margin: 15px;
 }
-.item{
+
+.item {
     background-color: rgba(255, 255, 255, 0.39);
     border-radius: 10px;
     border: 1px solid black;
     padding: 20px;
     display: grid;
 }
+
 .ipd {
     border-radius: 10px;
     border: 1px;
@@ -152,31 +180,39 @@ h2 {
     display: grid;
     text-align: center;
 }
+
 .horario {
-    background-color:  yellow;
+    background-color: yellow;
     padding: 10px;
     margin: 0 auto;
 }
-.diasemana{
+
+.diasemana {
     font-size: 20px;
 }
+
 .apr {
     text-align: right;
 }
+
 table {
     border-collapse: separate;
     border-spacing: 30px 0;
 }
+
 td {
     padding: 1px 0;
 }
+
 .contato {
     text-align: center;
 }
+
 .alert.alert-success {
     background-color: red;
     color: white;
 }
+
 h6 {
     font-size: 15px;
     text-align: right;
