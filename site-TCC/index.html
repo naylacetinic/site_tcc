@@ -42,6 +42,19 @@
             <li class="nav-item">
                 <a class="nav-link" href="paginas/recados.html"> Recados</a>
               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Modificações no site
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <input class="dropdown-item" type="button" onclick="window.location.reload()" value="Cor original">
+                  <input class="dropdown-item" type="button" onclick="yellow()" value="Amarelo">
+                  <input class="dropdown-item" type="button" onclick="pink()" value="Rosa">
+                  <input class="dropdown-item" type="button" onclick="blue()" value="Azul">
+                  <input class="dropdown-item" type="button" onclick="green()" value="Verde">
+                  <input class="dropdown-item" type="button" onclick="purple()" value="Roxo">
+                </div>
+              </li>
           </ul>
         </div>
     </nav>
@@ -55,15 +68,17 @@
           <img src="imagens/divisor.png">
         </div>
         <br>
-
+        <div class="manipula">
       <a name="n-h"><h3>Nossa História:</h3></a> <br>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor, quam ut ultrices efficitur, neque urna feugiat elit, a aliquam sapien risus ac elit. Sed vestibulum metus quis elit lobortis, non tristique lacus tincidunt. Integer dictum ullamcorper nulla. Praesent quis augue consequat, tincidunt mi sit amet, egestas neque. Curabitur tristique, arcu et egestas fringilla, mi nisl porttitor enim, et sodales eros nulla vitae nisi. Vestibulum faucibus imperdiet sollicitudin. Pellentesque at ante nec arcu mattis facilisis. Aliquam a tristique lectus, eget varius velit. Aliquam aliquam tincidunt ex, sed elementum diam ultricies vitae.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor, quam ut ultrices efficitur, neque urna feugiat elit, a aliquam sapien risus ac elit. Sed vestibulum metus quis elit lobortis, non tristique lacus tincidunt. Integer dictum ullamcorper nulla. Praesent quis augue consequat, tincidunt mi sit amet, egestas neque. Curabitur tristique, arcu et egestas fringilla, mi nisl porttitor enim, et sodales eros nulla vitae nisi. Vestibulum faucibus imperdiet sollicitudin. Pellentesque at ante nec arcu mattis facilisis. Aliquam a tristique lectus, eget varius velit. Aliquam aliquam tincidunt ex, sed elementum diam ultricies vitae.</p>
+      </div>
         <br>
         <div class="td">
           <img src="imagens/divisor.png">
         </div>
         <br>
+        <div class="manipula">
       <a name="p-f"><h3>Perguntas Frequêntes:</h3></a> <br>
       <div class="accordion" id="accordionExample">
         <div class="card">
@@ -123,6 +138,7 @@
             </div>
           </div>
         </div>
+      </div>
       <br> <br> <br>
       <footer>
         <div id="rodape">
@@ -137,5 +153,22 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+    <script>
+function yellow() {
+    document.querySelector("body").style.backgroundColor = "yellow"
+}
+function pink() {
+    document.querySelector("body").style.backgroundColor = "lightpink"
+}
+function blue() {
+    document.querySelector("body").style.backgroundColor = "lightble"
+}
+function green() {
+    document.querySelector("body").style.backgroundColor = "lightgreen"
+}
+function purple() {
+    document.querySelector("body").style.backgroundColor = "lightpurple"
+}
+    </script>
+  </body>
 </html>
